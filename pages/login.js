@@ -30,6 +30,11 @@ export default function Login() {
 </p>
 
 <form>
+  onSubmit={(e) => {
+    e.preventDefault();
+    router.push("/dashboard");
+  }}
+> 
   <div style={{ marginBottom: "20px" }}>
     <label>Email</label>
     <input
