@@ -97,8 +97,9 @@ export default function Login() {
       Register
     </Link>
   </p>
-</form>
-onSubmit={(e) => {
-  e.preventDefault();
-  router.push("/dashboard");
-}}
+<form
+  onSubmit={(e) => {
+    e.preventDefault();
+    router.push("/dashboard");
+  }}
+>
