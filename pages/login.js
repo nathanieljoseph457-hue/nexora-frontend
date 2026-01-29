@@ -29,58 +29,40 @@ export default function Login() {
   Login to your Nexora Capital account.
 </p>
 
-<form>
+<form
   onSubmit={(e) => {
     e.preventDefault();
     router.push("/dashboard");
   }}
-> 
+>
   <div style={{ marginBottom: "20px" }}>
     <label>Email</label>
-    <input
-      type="email"
-      placeholder="Enter your email"
-      style={{
-        width: "100%",
-        padding: "12px",
-        marginTop: "6px",
-        borderRadius: "6px",
-        border: "none",
-        outline: "none",
-      }}
-    />
+    <input type="email" placeholder="Enter your email" />
   </div>
 
   <div style={{ marginBottom: "30px" }}>
     <label>Password</label>
-    <input
-      type="password"
-      placeholder="Enter your password"
-      style={{
-        width: "100%",
-        padding: "12px",
-        marginTop: "6px",
-        borderRadius: "6px",
-        border: "none",
-        outline: "none",
-      }}
-    />
+    <input type="password" placeholder="Enter your password" />
   </div>
 
   <button
-    <button
-  type="submit"
-  style={{
-    width: "100%",
-    padding: "12px",
-    background: "#6c5ce7",
-    color: "#fff",
-    border: "none",
-    borderRadius: "6px",
-    fontWeight: "bold",
-    cursor: "pointer",
-  }}
->
+    type="submit"
+    style={{
+      width: "100%",
+      padding: "14px",
+      background: "#5b5bf7",
+      color: "#fff",
+      border: "none",
+      borderRadius: "8px",
+      fontSize: "16px",
+      cursor: "pointer",
+    }}
+  >
+    Login
+  </button>
+</form>
+
+        
   Login
 </button>
     Login
