@@ -68,18 +68,21 @@ export default function Login() {
   </div>
 
   <button
-    type="submit"
-    style={{
-      width: "100%",
-      padding: "12px",
-      background: "#6f5bd3",
-      color: "#fff",
-      border: "none",
-      borderRadius: "6px",
-      fontSize: "16px",
-      cursor: "pointer",
-    }}
-  >
+    <button
+  type="submit"
+  style={{
+    width: "100%",
+    padding: "12px",
+    background: "#6c5ce7",
+    color: "#fff",
+    border: "none",
+    borderRadius: "6px",
+    fontWeight: "bold",
+    cursor: "pointer",
+  }}
+>
+  Login
+</button>
     Login
   </button>
 <p style={{ marginTop: "20px", textAlign: "center", color: "#aaa" }}>
@@ -95,3 +98,7 @@ export default function Login() {
     </Link>
   </p>
 </form>
+onSubmit={(e) => {
+  e.preventDefault();
+  router.push("/dashboard");
+}}
