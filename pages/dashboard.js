@@ -14,8 +14,7 @@ export default function Dashboard() {
       </p>
 
       {/* Balance Card */}
-      <div
-        style={{
+      <div className="card">
           background: "#111",
           padding: "25px",
           borderRadius: "12px",
