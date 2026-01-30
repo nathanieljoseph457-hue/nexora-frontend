@@ -26,7 +26,7 @@ export default function Dashboard() {
         <h3 style={{ marginBottom: "10px", color: "#aaa" }}>
           Account Balance
         </h3>
-        <h2>$12,450.00</h2>
+        <h2>$212,450.00</h2>
       </div>
 
       {/* Actions */}
@@ -34,15 +34,14 @@ export default function Dashboard() {
         <button
           style={{
             padding: "14px 20px",
-            borderRadius: "8px",
-            border: "none",
+            borderRadius: "8px: "none",
             background: "#6c5ce7",
             color: "#fff",
             cursor: "pointer",
           }}
         >
           Deposit
-        </button>
+        <button className="btn-primary">Deposit</button>
 
         <button
           style={{
@@ -57,7 +56,8 @@ export default function Dashboard() {
           Withdraw
         </button>
 
-        <button
+        <button className="btn-secondary">Withdraw</button>
+<button className="btn-secondary">Logout</button>
           style={{
             padding: "14px 20px",
             borderRadius: "8px",
@@ -68,7 +68,8 @@ export default function Dashboard() {
           }}
         >
           Logout
-        </button>
+       <button className="btn-secondary">Withdraw</button>
+<button className="btn-secondary">Logout</button> 
       </div>
     </div>
   );
