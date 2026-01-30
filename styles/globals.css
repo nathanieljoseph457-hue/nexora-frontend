@@ -46,3 +46,49 @@ input::placeholder {
 button {
   font-family: inherit;
 }
+/* ===== Bank-grade cards ===== */
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+/* ===== Primary button (Deposit / Login) ===== */
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+/* ===== Secondary button (Withdraw / Logout) ===== */
+
+.btn-secondary {
+  padding: 14px 20px;
+  background: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* ===== Muted text ===== */
+
+.text-muted {
+  color: var(--text-muted);
+  font-size: 14px;
+}
